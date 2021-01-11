@@ -70,9 +70,9 @@ $(function() {
      });
     
     
-    //===== Slick project
+    //===== Slick sponsors
     
-    $('.project-active').slick({
+    $('.sponsors-active').slick({
         dots: true,
         infinite: true,
         speed: 800,
