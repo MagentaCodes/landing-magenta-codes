@@ -110,7 +110,7 @@ $(function() {
     
     //===== Slick Testimonial
     
-    $('.benefits-active').slick({
+    $('.testimonial-active').slick({
         dots: true,
         infinite: true,
         speed: 800,
