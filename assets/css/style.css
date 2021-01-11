@@ -682,7 +682,7 @@ p {
         transform: translateY(-50%); }
 
 /*===========================
-    3.ABOUT css 
+    3.OPEN ROLES css
 ===========================*/
 @media (max-width: 767px) {
   .about-area {
@@ -803,7 +803,7 @@ p {
       font-size: 26px; } }
 
 /*===========================
-      4.SERVICES css 
+      4.OPEN ROLES css
 ===========================*/
 @media (max-width: 767px) {
   .services-area {
@@ -879,97 +879,6 @@ p {
   transition: all 200ms ease-in;
   transform: scale(1.5);
 }
-/*===========================
-      5.PROJECT css 
-===========================*/
-@media (max-width: 767px) {
-  .project-area {
-    padding-top: 75px;
-    padding-bottom: 80px; } }
-
-.single-project {
-  position: relative; }
-  .single-project .project-image {
-    position: relative; }
-    .single-project .project-image::before {
-      position: absolute;
-      content: '';
-      width: 100%;
-      height: 100%;
-      background: white;
-      background: -webkit-linear-gradient(rgba(255, 255, 255, 0) 50%, #D6006E 100%);
-      background: -o-linear-gradient(rgba(255, 255, 255, 0) 50%, #D6006E 100%);
-      background: linear-gradient(rgba(255, 255, 255, 0) 50%, #D6006E 100%);
-      opacity: 0;
-      -webkit-transition: all 0.4s ease-out 0s;
-      -moz-transition: all 0.4s ease-out 0s;
-      -ms-transition: all 0.4s ease-out 0s;
-      -o-transition: all 0.4s ease-out 0s;
-      transition: all 0.4s ease-out 0s; }
-  .single-project .project-content {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    padding: 35px 5px;
-    -webkit-transform: translateY(100%);
-    -moz-transform: translateY(100%);
-    -ms-transform: translateY(100%);
-    -o-transform: translateY(100%);
-    transform: translateY(100%);
-    -webkit-transition: all 0.4s ease-out 0s;
-    -moz-transition: all 0.4s ease-out 0s;
-    -ms-transition: all 0.4s ease-out 0s;
-    -o-transition: all 0.4s ease-out 0s;
-    transition: all 0.4s ease-out 0s;
-    opacity: 0; }
-    .single-project .project-content .project-title {
-      font-size: 22px;
-      font-weight: 600;
-      font-family: 'Barlow', sans-serif;
-      position: relative;
-      color: #fff;
-      margin-left: 60px; }
-      .single-project .project-content .project-title::before {
-        position: absolute;
-        content: '';
-        width: 50px;
-        height: 1px;
-        background-color: #fff;
-        top: 50%;
-        left: -60px; }
-  .single-project:hover .project-image::before {
-    opacity: 1; }
-  .single-project:hover .project-content {
-    opacity: 1;
-    -webkit-transform: translateY(0%);
-    -moz-transform: translateY(0%);
-    -ms-transform: translateY(0%);
-    -o-transform: translateY(0%);
-    transform: translateY(0%); }
-
-.project-active .slick-dots {
-  text-align: center;
-  margin-top: 50px; }
-  .project-active .slick-dots li {
-    display: inline-block;
-    margin: 0 7px; }
-    .project-active .slick-dots li button {
-      width: 25px;
-      height: 15px;
-      border-radius: 50px;
-      border: 0;
-      background-color: rgba(214, 0, 110, 0.7);
-      -webkit-transition: all 0.4s ease-out 0s;
-      -moz-transition: all 0.4s ease-out 0s;
-      -ms-transition: all 0.4s ease-out 0s;
-      -o-transition: all 0.4s ease-out 0s;
-      transition: all 0.4s ease-out 0s;
-      font-size: 0;
-      cursor: pointer; }
-    .project-active .slick-dots li.slick-active button {
-      width: 35px;
-      background-color: #D6006E; }
 
 /*===========================
         6.TEAM css 
@@ -1156,95 +1065,12 @@ p {
       width: 25px; }
 
 /*===========================
-       8.CONTACT css 
+       8.SPONSORS css
 ===========================*/
 @media (max-width: 767px) {
-  .contact-area {
+  .sponsors-area {
     padding-top: 75px;
     padding-bottom: 80px; } }
-
-.form-group {
-  margin: 0; }
-
-p.form-message.success,
-p.form-message.error {
-  font-size: 16px;
-  color: #333;
-  background: #ddd;
-  padding: 10px 15px;
-  margin-left: 15px;
-  margin-top: 15px; }
-
-p.form-message.error {
-  color: #f00; }
-
-.contact-form .single-form {
-  margin-top: 30px; }
-  .contact-form .single-form textarea,
-  .contact-form .single-form input {
-    width: 100%;
-    height: 60px;
-    border: 1px solid #eee;
-    border-radius: 5px;
-    padding: 0 30px;
-    background-color: #fff;
-    font-family: 'Hind', sans-serif;
-    font-size: 16px; }
-  .contact-form .single-form textarea {
-    height: 160px;
-    padding-top: 20px;
-    resize: none; }
-  .contact-form .single-form textarea::placeholder,
-  .contact-form .single-form input::placeholder {
-    opacity: 1;
-    color: #999; }
-
-.list-unstyled li {
-  font-size: 13px;
-  margin-left: 2px;
-  margin-top: 5px;
-  color: #f00; }
-
-/*===========================
-         9.MAP css
-===========================*/
-.map-area {
-  position: relative;
-  height: 600px; }
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .map-area {
-      height: 450px; } }
-  @media (max-width: 767px) {
-    .map-area {
-      height: 450px; } }
-
-.mapouter {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 60%; }
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .mapouter {
-      width: 100%; } }
-  @media (max-width: 767px) {
-    .mapouter {
-      width: 100%; } }
-  .mapouter .gmap_canvas iframe {
-    width: 100%;
-    height: 600px; }
-    @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .mapouter .gmap_canvas iframe {
-        height: 450px; } }
-    @media (max-width: 767px) {
-      .mapouter .gmap_canvas iframe {
-        height: 450px; } }
-
-.map-bg {
-  width: 40%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  right: 0; }
 
 /*===========================
        10.FOOTER css 
