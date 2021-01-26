@@ -69,45 +69,81 @@ $(function() {
          duration: 800,
      });
     
-    
+        
     //===== Slick sponsors
     
     $('.sponsors-active').slick({
-        dots: true,
-        infinite: true,
-        speed: 800,
-        slidesToShow: 5,
-        slidesToScroll: 3,
-        arrows: false,
-        responsive: [
-            {
-              breakpoint: 1200,
-              settings: {
-                slidesToShow: 4,
-              }
-            },
-            {
-              breakpoint: 992,
-              settings: {
-                slidesToShow: 3,
-              }
-            },
-            {
-              breakpoint: 768,
-              settings: {
-                slidesToShow: 2,
-              }
-            },
-            {
-              breakpoint: 576,
-              settings: {
-                slidesToShow: 1,
-              }
+      dots: true,
+      infinite: true,
+      speed: 800,
+      slidesToShow: 5,
+      slidesToScroll: 3,
+      arrows: false,
+      responsive: [
+          {
+            breakpoint: 1200,
+            settings: {
+              slidesToShow: 4,
             }
-        ]
-    });
+          },
+          {
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 3,
+            }
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 2,
+            }
+          },
+          {
+            breakpoint: 576,
+            settings: {
+              slidesToShow: 1,
+            }
+          }
+      ]
+  });
+  
+ //===== Slick project
     
-    
+ $('.project-active').slick({
+  dots: true,
+  infinite: true,
+  speed: 800,
+  slidesToShow: 5,
+  slidesToScroll: 3,
+  arrows: false,
+  responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 4,
+        }
+      },
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 3,
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+        }
+      }
+  ]
+});
+ 
     //===== Slick Testimonial
     
     $('.testimonial-active').slick({

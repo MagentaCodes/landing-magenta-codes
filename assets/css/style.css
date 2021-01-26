@@ -682,7 +682,7 @@ p {
         transform: translateY(-50%); }
 
 /*===========================
-    3.OPEN ROLES css
+    3.OPEN ROLES css 
 ===========================*/
 @media (max-width: 767px) {
   .about-area {
@@ -803,7 +803,7 @@ p {
       font-size: 26px; } }
 
 /*===========================
-      4.OPEN ROLES css
+      4.OPEN ROLES css 
 ===========================*/
 @media (max-width: 767px) {
   .services-area {
@@ -848,9 +848,9 @@ p {
     .single-services:hover .services-content .services-title,
     .single-services:hover .services-content p {
       color: #fff; }
+  
 
-
-.style_prevu_kit
+      .style_prevu_kit
 {
   display:inline-block;
   border:0;
@@ -879,6 +879,98 @@ p {
   transition: all 200ms ease-in;
   transform: scale(1.5);
 }
+
+/*===========================
+      5.PROJECT css 
+===========================*/
+@media (max-width: 767px) {
+  .project-area {
+    padding-top: 75px;
+    padding-bottom: 80px; } }
+
+.single-project {
+  position: relative; }
+  .single-project .project-image {
+    position: relative; }
+    .single-project .project-image::before {
+      position: absolute;
+      content: '';
+      width: 100%;
+      height: 100%;
+      background: white;
+      background: -webkit-linear-gradient(rgba(255, 255, 255, 0) 50%, #D6006E 100%);
+      background: -o-linear-gradient(rgba(255, 255, 255, 0) 50%, #D6006E 100%);
+      background: linear-gradient(rgba(255, 255, 255, 0) 50%, #D6006E 100%);
+      opacity: 0;
+      -webkit-transition: all 0.4s ease-out 0s;
+      -moz-transition: all 0.4s ease-out 0s;
+      -ms-transition: all 0.4s ease-out 0s;
+      -o-transition: all 0.4s ease-out 0s;
+      transition: all 0.4s ease-out 0s; }
+  .single-project .project-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px 5px;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    transform: translateY(100%);
+    -webkit-transition: all 0.4s ease-out 0s;
+    -moz-transition: all 0.4s ease-out 0s;
+    -ms-transition: all 0.4s ease-out 0s;
+    -o-transition: all 0.4s ease-out 0s;
+    transition: all 0.4s ease-out 0s;
+    opacity: 0; }
+    .single-project .project-content .project-title {
+      font-size: 22px;
+      font-weight: 600;
+      font-family: 'Barlow', sans-serif;
+      position: relative;
+      color: #fff;
+      margin-left: 60px; }
+      .single-project .project-content .project-title::before {
+        position: absolute;
+        content: '';
+        width: 50px;
+        height: 1px;
+        background-color: #fff;
+        top: 50%;
+        left: -60px; }
+  .single-project:hover .project-image::before {
+    opacity: 1; }
+  .single-project:hover .project-content {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+    transform: translateY(0%); }
+
+.project-active .slick-dots {
+  text-align: center;
+  margin-top: 50px; }
+  .project-active .slick-dots li {
+    display: inline-block;
+    margin: 0 7px; }
+    .project-active .slick-dots li button {
+      width: 25px;
+      height: 15px;
+      border-radius: 50px;
+      border: 0;
+      background-color: rgba(235, 54, 86, 0.7);
+      -webkit-transition: all 0.4s ease-out 0s;
+      -moz-transition: all 0.4s ease-out 0s;
+      -ms-transition: all 0.4s ease-out 0s;
+      -o-transition: all 0.4s ease-out 0s;
+      transition: all 0.4s ease-out 0s;
+      font-size: 0;
+      cursor: pointer; }
+    .project-active .slick-dots li.slick-active button {
+      width: 35px;
+      background-color: #D6006E; }
 
 /*===========================
         6.TEAM css 
@@ -1063,99 +1155,6 @@ p {
     .testimonial-active .slick-dots li.slick-active button {
       background-color: #fff;
       width: 25px; }
-
-/*===========================
-      5.PROJECT css 
-===========================*/
-@media (max-width: 767px) {
-  .project-area {
-    padding-top: 75px;
-    padding-bottom: 80px; } }
-
-.single-project {
-  position: relative; }
-  .single-project .project-image {
-    position: relative; }
-    .single-project .project-image::before {
-      position: absolute;
-      content: '';
-      width: 100%;
-      height: 100%;
-      background: white;
-      background: -webkit-linear-gradient(rgba(255, 255, 255, 0) 50%, #D6006E 100%);
-      background: -o-linear-gradient(rgba(255, 255, 255, 0) 50%, #D6006E 100%);
-      background: linear-gradient(rgba(255, 255, 255, 0) 50%, #D6006E 100%);
-      opacity: 0;
-      -webkit-transition: all 0.4s ease-out 0s;
-      -moz-transition: all 0.4s ease-out 0s;
-      -ms-transition: all 0.4s ease-out 0s;
-      -o-transition: all 0.4s ease-out 0s;
-      transition: all 0.4s ease-out 0s; }
-  .single-project .project-content {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    padding: 35px 5px;
-    -webkit-transform: translateY(100%);
-    -moz-transform: translateY(100%);
-    -ms-transform: translateY(100%);
-    -o-transform: translateY(100%);
-    transform: translateY(100%);
-    -webkit-transition: all 0.4s ease-out 0s;
-    -moz-transition: all 0.4s ease-out 0s;
-    -ms-transition: all 0.4s ease-out 0s;
-    -o-transition: all 0.4s ease-out 0s;
-    transition: all 0.4s ease-out 0s;
-    opacity: 0; }
-    .single-project .project-content .project-title {
-      font-size: 22px;
-      font-weight: 600;
-      font-family: 'Barlow', sans-serif;
-      position: relative;
-      color: #fff;
-      margin-left: 60px; }
-      .single-project .project-content .project-title::before {
-        position: absolute;
-        content: '';
-        width: 50px;
-        height: 1px;
-        background-color: #fff;
-        top: 50%;
-        left: -60px; }
-  .single-project:hover .project-image::before {
-    opacity: 1; }
-  .single-project:hover .project-content {
-    opacity: 1;
-    -webkit-transform: translateY(0%);
-    -moz-transform: translateY(0%);
-    -ms-transform: translateY(0%);
-    -o-transform: translateY(0%);
-    transform: translateY(0%); }
-
-.project-active .slick-dots {
-  text-align: center;
-  margin-top: 50px; }
-  .project-active .slick-dots li {
-    display: inline-block;
-    margin: 0 7px; }
-    .project-active .slick-dots li button {
-      width: 25px;
-      height: 15px;
-      border-radius: 50px;
-      border: 0;
-      background-color: rgba(235, 54, 86, 0.7);
-      -webkit-transition: all 0.4s ease-out 0s;
-      -moz-transition: all 0.4s ease-out 0s;
-      -ms-transition: all 0.4s ease-out 0s;
-      -o-transition: all 0.4s ease-out 0s;
-      transition: all 0.4s ease-out 0s;
-      font-size: 0;
-      cursor: pointer; }
-    .project-active .slick-dots li.slick-active button {
-      width: 35px;
-      background-color: #D6006E; }
-
 
 /*===========================
        8.SPONSORS css
